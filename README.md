@@ -21,8 +21,6 @@ A simple Rust program that retrieves the Windows product key from your system, d
 5. Click the "Save" button to save the Windows key and your computer's name to a CSV file named `windows_keys.txt`.
 6. Click the "Close" button to close the program.
 
-## Dependencies
-
 ## Functionality
 
 The program includes the following main functions:
