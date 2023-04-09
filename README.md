@@ -7,7 +7,7 @@ A simple Rust program that retrieves the Windows product key from your system, d
 ## Using the Release Version
 
 1. Go to the "Releases" tab in the GitHub repository.
-2. Download the binary (executable) file attached to the latest release.
+2. Download the binary  `extract-windows-key.exe`  file attached to the latest release.
 3. Run the downloaded executable file. The Windows key will be displayed in the GUI.
 4. Click the "Save" button to save the Windows key and your computer's name to a CSV file named `windows_keys.txt`.
 5. Click the "Close" button to close the program.
