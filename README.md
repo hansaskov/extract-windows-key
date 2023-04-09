@@ -1,15 +1,8 @@
 # Windows Key Retriever
 
-A simple Rust program that retrieves the Windows product key from your system, displays it in a GUI, and allows you to save it to a CSV file. 
+A simple Rust program that retrieves the Windows product key from your system, displays it in a GUI, and allows you to save it to a CSV file.
 
 ![Example of the user interface](public/example-gui.png "User Interface")
-
-## Dependencies
-
-This program uses the following crates:
-
-- native-windows-gui
-- std
 
 ## Using the Release Version
 
@@ -22,15 +15,17 @@ This program uses the following crates:
 ## Running the Program from Source
 
 1. Clone the repository to your local machine using `git clone https://github.com/hansaskov/extract-windows-key`.
-2. Navigate to the cloned repository's directory  `cd extract-windows-key`.
+2. Navigate to the cloned repository's directory using `cd extract-windows-key`.
 3. Compile and run the program with `cargo run`.
 4. The Windows key will be displayed in the GUI.
 5. Click the "Save" button to save the Windows key and your computer's name to a CSV file named `windows_keys.txt`.
 6. Click the "Close" button to close the program.
 
+## Dependencies
+
 ## Functionality
 
-The program has the following main functions:
+The program includes the following main functions:
 
 - `main`: Initializes the GUI and sets up the event handler for button clicks.
 - `get_computer_name`: Retrieves the computer's name.
