@@ -2,6 +2,8 @@
 
 A simple Rust program that retrieves the Windows product key from your system, displays it in a GUI, and allows you to save it to a CSV file.
 
+![Example of the user interface](public/example-gui.png "User Interface")
+
 ## Dependencies
 
 This program uses the following crates:
